@@ -1,12 +1,12 @@
-const userName = require('./information');
+const userName = require('./informations');
 
 const chalk = require('chalk');
 
-console.log(chalk.blue('Hello, npm!'));
-console.log(chalk.blue(`${userName.wilders[0]}`));
-console.log(chalk.blue(`${userName.wilders[1]}`));
-console.log(chalk.blue(`${userName.wilders[2]}`));
-console.log(chalk.blue(`${userName.wilders[3]}`));
+//console.log(chalk.blue('Hello, npm!'));
+console.log(chalk.yellow(`${userName.wilders[0]}`));
+console.log(chalk.green(`${userName.wilders[1]}`));
+console.log(chalk.red(`${userName.wilders[2]}`));
+console.log(chalk.blueBright(`${userName.wilders[3]}`));
 
 //Ajouter un alias npm start
 //mettre en repo Git
